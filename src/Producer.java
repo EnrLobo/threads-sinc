@@ -10,7 +10,7 @@ public class Producer extends Thread {
 	
 	@Override
 	public void run() {
-		for (int i = 0; i < cube.LOOPS; i++) {
+		for (int i = 1; i < cube.LOOPS; i++) {
 			cube.set(name, i);			
 		}
 	}

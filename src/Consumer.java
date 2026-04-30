@@ -10,7 +10,7 @@ public class Consumer extends Thread {
 	
 	@Override
 	public void run() {
-		for (int i = 0; i < Cube.LOOPS; i++) {
+		for (int i = 1; i < Cube.LOOPS; i++) {
 			cube.get(name);
 		}
 	}
